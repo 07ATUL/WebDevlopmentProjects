@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet1" href="index.css">
+    <script src="index.js"></script>
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <div class="one">
+        <h1>Adder</h1>
+    </div>
+
+    <div class="container">
+        <div class="form">
+
+            <form action="">
+                <label for="fname">First Number</label>
+                <br>
+                <input type="number" id="fno" value="Type your First Number" required>
+                <br>
+                <label for="lname">Second Number</label>
+                <br>
+                <input type="number"id="sno" value="Type your Second Number" required>
+                <br>
+                <label for="submit">Submit</label>
+                <br>
+                <input type="button" value="Submit" onclick="add(document.getElementById('fno').value,document.getElementById('sno').value)">
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
